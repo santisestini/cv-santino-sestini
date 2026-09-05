@@ -44,11 +44,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(244, 235, 223);
 }
 
 /* Acá Empiezan Las Aplicaciones */
-
-/* Estuve probando el uso de FlexBox en el header, cuando vean esta correcion voy a tener avanzado esto mismo en el contenido de la pagina, pero queria subir hasta donde habia llegado para tener el presente de la clase asincronica. */
 
 header {
     display: flex;
@@ -56,6 +55,28 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+    background-color: rgb(168, 3, 3);
+    border: 0.2rem solid rgb(168, 3, 3);
+}
+
+.foto {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+
+#foto-perfil {
+    margin: 1.2vh;
 }
 
 h1,
@@ -83,7 +104,7 @@ h3 {
     color: rgb(168, 3, 3);
     font-size: 1.2rem;
     line-height: 1rem;
-    margin: 0rem 0rem 0.5rem 0.7rem;
+    margin: 0rem 0.5rem 0.5rem 2.3rem;
 }
 
 h4 {
@@ -91,47 +112,72 @@ h4 {
     color: rgb(102, 71, 71);
     font-size: 1rem;
     line-height: 0.9rem;
-    margin: 0rem 0rem 0.5rem 0.7rem;
-}
-
-.desc {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: left;
-    text-wrap-style: balance;
+    margin: 0rem 5rem 0.5rem 2rem;
 }
 
 ul {
     text-align: left;
     list-style-type: disc;
     line-height: 1.2rem;
-    margin: 0rem 0rem 0.5rem 3rem;
+    margin: 0rem 5rem 0.5rem 1rem;
 }
 
 p {
     text-align: left;
     line-height: 1.2rem;
-    margin: 0rem 0rem 0.2rem 0.7rem;
+    margin: 0rem 5rem 0.5rem 2rem;
 }
 
 .fechas {
     font-family: "AlegreyaItalic", sans-serif;
     text-align: left;
     line-height: 1.2rem;
-    margin: 0rem 0rem 0.9rem 0.7rem;
+    margin: 0rem 5rem 0.9rem 2rem;
 }
 
-a, footer {
-    text-decoration: none;
-    color: rgb(25, 25, 25);
+.info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: 0rem 0rem 1.3rem 0rem;
+    border: 0.5rem solid rgb(244, 235, 223);
+    background-color: rgb(244, 235, 223);
+}
+
+.exp {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    background-color: rgb(244, 235, 223);
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.desc {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0rem 7rem 1rem 7rem;
+    text-wrap-style: balance;
+    background-color: rgb(244, 235, 223);
+}
+
+a,
+footer,
+.footer, 
+.footer-text { 
+    color: rgb(244, 235, 223);
     line-height: 1.3rem;
     text-align: center;
-    margin: 0rem 0rem 0.5rem 0.7rem;
-
+    margin: 0.7rem 0rem 0.1rem 0rem;
+    background-color: rgb(168, 3, 3);
+    border: 0.2rem solid rgb(168, 3, 3);
 }
 
-.header {
-    margin: none;
-    text-align: center;
-    margin: 0rem 0rem 0rem 0rem;
+a {
+    text-decoration: underline;
+    margin: 0rem 0rem 1rem 0rem;
 }
