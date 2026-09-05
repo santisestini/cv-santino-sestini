@@ -51,28 +51,30 @@
 
 header {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    align-content: flex-end;
     background-color: rgb(168, 3, 3);
-    border: 0.2rem solid rgb(168, 3, 3);
+    border: 1vh solid rgb(168, 3, 3);
+    justify-content: space-around;
 }
 
 .foto {
     display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    background-color: rgb(233 216 195);
+    column-gap: 8vh;
 }
 
 .presentacion {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 1rem;
-    align-items: flex-start;
+    margin-bottom: 1vh;
+    align-items: stretch;
 }
 
 #foto-perfil {
@@ -82,7 +84,7 @@ header {
 h1,
 h2 {
     text-align: center;
-    margin: 0px 0px 10px 0px;
+    background-color: rgb(233 216 195);
 }
 
 h1 {
@@ -104,35 +106,34 @@ h3 {
     color: rgb(168, 3, 3);
     font-size: 1.2rem;
     line-height: 1rem;
-    margin: 0rem 0.5rem 0.5rem 2.3rem;
-}
+    margin: 0vh 0.7vh 0.5vh 4.9vh;}
 
 h4 {
     font-family: "ChivoSemiItalic", sans-serif;
     color: rgb(102, 71, 71);
     font-size: 1rem;
     line-height: 0.9rem;
-    margin: 0rem 5rem 0.5rem 2rem;
+    margin: 0vh 0vh 0.9vh 3.3vh;
 }
 
 ul {
     text-align: left;
     list-style-type: disc;
     line-height: 1.2rem;
-    margin: 0rem 5rem 0.5rem 1rem;
+    margin: 0vh 5vh 0.5vh 1.5vh;
 }
 
 p {
     text-align: left;
     line-height: 1.2rem;
-    margin: 0rem 5rem 0.5rem 2rem;
+    margin: 0vh 0vh 0.9vh 3.3vh;
 }
 
 .fechas {
     font-family: "AlegreyaItalic", sans-serif;
     text-align: left;
     line-height: 1.2rem;
-    margin: 0rem 5rem 0.9rem 2rem;
+    margin: 0vh 0vh 0.9vh 3.3vh;
 }
 
 .info {
@@ -140,7 +141,7 @@ p {
     justify-content: center;
     align-content: center;
     align-items: flex-start;
-    margin: 0rem 0rem 1.3rem 0rem;
+        margin: 0vh 0vh 1vh 0vh;
     border: 0.5rem solid rgb(244, 235, 223);
     background-color: rgb(244, 235, 223);
 }
@@ -160,7 +161,7 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: center;
-    margin: 0rem 7rem 1rem 7rem;
+    margin: 1vh 10vh 1vh 10vh;
     text-wrap-style: balance;
     background-color: rgb(244, 235, 223);
 }
@@ -172,12 +173,12 @@ footer,
     color: rgb(244, 235, 223);
     line-height: 1.3rem;
     text-align: center;
-    margin: 0.7rem 0rem 0.1rem 0rem;
+    margin: 1vh 0vh 0.1vh 0vh;
     background-color: rgb(168, 3, 3);
-    border: 0.2rem solid rgb(168, 3, 3);
+    border: 0.5vh solid rgb(168, 3, 3);
 }
 
 a {
     text-decoration: underline;
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0vh 0vh 1vh 0vh;
 }
