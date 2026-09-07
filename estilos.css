@@ -44,14 +44,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(244, 235, 223);
 }
 
 /* Acá Empiezan Las Aplicaciones */
 
 header {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
     align-content: flex-end;
     background-color: rgb(168, 3, 3);
@@ -66,24 +65,21 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(233 216 195);
-    column-gap: 8vh;
+    height: 20vh;
+    padding: 7px;
+    column-gap: 4vh;
 }
 
 .presentacion {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 1vh;
     align-items: stretch;
-}
-
-#foto-perfil {
-    margin: 1.2vh;
 }
 
 h1,
 h2 {
-    text-align: center;
+    text-align: left;
     background-color: rgb(233 216 195);
 }
 
@@ -91,7 +87,7 @@ h1 {
     font-family: "ChivoBlack", sans-serif;
     color: rgb(168, 3, 3);
     font-size: 3rem;
-    line-height: 2.3rem;
+    line-height: 4rem;
 }
 
 h2 {
@@ -106,79 +102,89 @@ h3 {
     color: rgb(168, 3, 3);
     font-size: 1.2rem;
     line-height: 1rem;
-    margin: 0vh 0.7vh 0.5vh 4.9vh;}
+    margin: 0rem 0.5rem 0.3rem 2.9rem;
+}
 
 h4 {
     font-family: "ChivoSemiItalic", sans-serif;
     color: rgb(102, 71, 71);
     font-size: 1rem;
     line-height: 0.9rem;
-    margin: 0vh 0vh 0.9vh 3.3vh;
+    margin: 0rem 0rem 0.2rem 1.9rem;
 }
 
 ul {
     text-align: left;
     list-style-type: disc;
     line-height: 1.2rem;
-    margin: 0vh 5vh 0.5vh 1.5vh;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 p {
     text-align: left;
     line-height: 1.2rem;
-    margin: 0vh 0vh 0.9vh 3.3vh;
-}
-
-.fechas {
-    font-family: "AlegreyaItalic", sans-serif;
-    text-align: left;
-    line-height: 1.2rem;
-    margin: 0vh 0vh 0.9vh 3.3vh;
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start;
-        margin: 0vh 0vh 1vh 0vh;
-    border: 0.5rem solid rgb(244, 235, 223);
-    background-color: rgb(244, 235, 223);
-}
-
-.exp {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    background-color: rgb(244, 235, 223);
-    margin: 0rem 0rem 1rem 0rem;
 }
 
 .desc {
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: center;
-    margin: 1vh 10vh 1vh 10vh;
     text-wrap-style: balance;
     background-color: rgb(244, 235, 223);
+    min-height: 9vh;
+    padding: 1vh;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(244, 235, 223);
+    min-height: 17vh;
+    flex-wrap: wrap;
+}
+
+.fechas,
+.sub-exp {
+    text-align: left;
+    line-height: 1.2rem;
+    margin: 0rem 0rem 0.9rem 1.9rem;
+}
+
+.fechas {
+    font-family: "AlegreyaItalic", sans-serif;
+}
+
+.exp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(244, 235, 223);
+    min-height: 50vh;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 a,
 footer,
-.footer, 
-.footer-text { 
+.footer,
+.footer-text {
     color: rgb(244, 235, 223);
     line-height: 1.3rem;
     text-align: center;
-    margin: 1vh 0vh 0.1vh 0vh;
     background-color: rgb(168, 3, 3);
-    border: 0.5vh solid rgb(168, 3, 3);
+}
+
+footer {
+    border: 2vh solid rgb(168, 3, 3);
+    
+}
+
+.footer, .footer-text {
+    margin: 0.5rem 0rem 0rem 0rem;
 }
 
 a {
     text-decoration: underline;
-    margin: 0vh 0vh 1vh 0vh;
 }
