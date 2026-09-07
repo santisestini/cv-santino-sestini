@@ -1,4 +1,4 @@
-# TP1: Mi CV - Santino Sestini
+# TP1: Mi CV
 ## Descripción general del proyecto:
 Esté es mi tp1 de la materia compu3. El objetivo era armar un curriculum poniendo en práctica los conocimientos aprendidos sobre HTML5, CSS y Flexbox. Si bien no es el CV más completo o el sitio web más hermoso es trabajo duro y honesto. Costó pero se logró llegar a la entrega!
 ## Divisiones del proyecto:
@@ -9,6 +9,7 @@ El main lo dividí en secciones que contienen:
 * Mis habilidades, desde tecnológicas hasta en el ámbito del diseño
 * Mi experiencia laboral, no toda está relacionada al campo del diseño, pero muestra un poco mi responsabilidad.
 * Mis estudios
+
 Por último, en el footer puse un botón de contacto que te redirecciona al mail para que me contactes. Y junto a eso la información de la cátedra y mi nombre y apellido.
 
 ## Información técnica:
